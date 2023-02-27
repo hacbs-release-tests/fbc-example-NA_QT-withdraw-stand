@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: fbctest413
     spec:
       containers:
-      - image: quay.io/scoheb/user-workload:NA_QT-fbctest413
+      - image: quay.io/scoheb/user-workload@sha256:4a9ec415c8554fa60786f7cf5a2667323dfe28e0fea79cd7289bcc59c9330991
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
