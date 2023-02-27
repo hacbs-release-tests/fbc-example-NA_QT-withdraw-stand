@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/scoheb/user-workload@sha256:a09486716181b794ed7a5ed653d037238699f86f743b7c7e2dbf4457fa944b9f
+      - image: quay.io/scoheb/user-workload@sha256:308536d703c8af006e7fca7959ded7e758e1952e6f47b07953fbe11abd3f2e89
         name: container-image
         resources: {}
 status: {}
